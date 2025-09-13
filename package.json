@@ -1,0 +1,42 @@
+{
+  "name": "leetcode-practice-tracker",
+  "version": "1.0.0",
+  "description": "TypeScript-based console application that collects LeetCode questions and stores them in PostgreSQL or Notion databases. Specializes in fetching LeetCode questions, Google-specific questions, and Grind75 questions.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node --es-module-specifier-resolution=node build/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "leetcode",
+    "grind75",
+    "postgresql",
+    "notion",
+    "console-app",
+    "cli",
+    "graphql",
+    "puppeteer",
+    "sequelize"
+  ],
+  "author": "Wee Hong KOH",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^24.3.3",
+    "axios": "^1.12.1",
+    "chalk": "^5.0.1",
+    "dotenv": "^17.2.2",
+    "inquirer": "^12.9.4",
+    "ora": "^8.2.0",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "puppeteer": "^24.20.0",
+    "sequelize": "^6.23.1",
+    "typescript": "^5.9.2",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.1"
+  }
+}
